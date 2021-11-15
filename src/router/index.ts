@@ -5,12 +5,12 @@ function load (component: string) {
 }
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: load('views/Home')
   },
   {
-    path: '/start-code',
+    path: '/',
     name: 'Code-Editor',
     component: load('views/CodeEditor')
   }
